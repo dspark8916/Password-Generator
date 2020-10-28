@@ -25,19 +25,47 @@ var special = ("!", "@", "#", "$", "%", "&", "*", "(", ")", "+");
 // console.log()
 
 var generate;
-var confirmNumbers;
-var confirmSpecial;
-var confirmUppercase;
-var confirmLowercase;
+var verifyNumbers;
+var verifySpecial;
+var verifyUppercase;
+var verifyLowercase;
 
-var choices;
+var options;
 
 function generatePassword() {
   generate = pasrseInt(prompt("Your password must be between 8 & 128 characters long. How long you would like your password to be?"));
+    
     if (!generate) {
       alert("Please enter a number between 8 & 128.");
     }
+    
     else if (generate < 8 || generate > 128) {
       generate = parseInt(prompt("Please enter a number between 8 & 128."));
     }
+
+    else {
+      verifyNumbers = confirm("Would you like to include numbers?");
+      verifySpecial = confirm("Would you like to include special characters?");
+      verifyUppercase = confirm("Would you like to include uppercase letters?");
+      verifyLowercase = confirm("Would you like to include lowercase letters?");
+    };
+
+    if (!verifyNumbers && !verifySpecial && !verifyUppercase && !verifyLowercase) {
+      options = alert("Please select an option.");
+    }
+
+    else if (verifyNumbers && verifySpecial && verifyUppercase && verifyLowercase) {
+      options = character.concat(lowerCase, upperCase, special);
+    }
+
+    else if (verifyNumbers && verifySpecial && verifyUppercase) {
+      options = character.concat(lowerCase, upperCase);
+    }
+
+    else if (verifyNumbers && verifySpecial && verifyLowercase) {
+      options = character.concat(lowerCase, numbers);
+    }
+
+    else if (verifyNumbers && )
 }
+
