@@ -55,17 +55,23 @@ function generatePassword() {
     }
 
     else if (verifyNumbers && verifySpecial && verifyUppercase && verifyLowercase) {
-      options = character.concat(lowerCase, upperCase, special);
+      options = numbers.concat(lowerCase, upperCase, special);
     }
 
     else if (verifyNumbers && verifySpecial && verifyUppercase) {
-      options = character.concat(lowerCase, upperCase);
+      options = numbers.concat(lowerCase, upperCase);
     }
 
     else if (verifyNumbers && verifySpecial && verifyLowercase) {
-      options = character.concat(lowerCase, numbers);
+      options = numbers.concat(lowerCase, special);
     }
 
-    else if (verifyNumbers && )
+    else if (verifyNumbers && verifyLowercase && verifyUppercase) {
+      options = numbers.concat(special, upperCase);
+    }
+
+    else if (verifySpecial && verifyUppercase && verifyLowercase) {
+      options = lowerCase.concat(special, upperCase);
+    }
 }
 
