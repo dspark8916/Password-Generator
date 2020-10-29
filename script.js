@@ -98,6 +98,23 @@ function generatePassword() {
       options = numbers.concat(special);
     }
 
+    else if (verifySpecial) {
+      options = special;
+    }
+
+    else if (verifyUppercase) {
+      options = upperCase;
+    }
+
+    else if (verifyNumbers) {
+      options = numbers;
+    }
+
+    else if (verifyLowercase) {
+      options = lowerCase;
+    }
+
     
+
 }
 
