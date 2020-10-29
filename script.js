@@ -40,7 +40,7 @@ function generatePassword() {
       };
   
       if (!verifyNumbers && !verifySpecial && !verifyUppercase && !verifyLowercase) {
-        options = alert("Please select an option.");
+        options = alert("Incorrect Input!! Click on Generate Password to try again!!");
       }
     
       else if (verifyNumbers && verifySpecial && verifyUppercase && verifyLowercase) {
