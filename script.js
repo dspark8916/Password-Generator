@@ -29,7 +29,7 @@ function generatePassword() {
     generator = prompt("Your password must be between 8 & 128 characters long. How long you would like your password to be?");
       
       if (generator < 8 || generator > 128) {
-        generator = prompt("Please enter a number between 8 & 128.");
+        generator = alert("Please enter a number between 8 & 128.");
       }
   
       else {
