@@ -48,3 +48,6 @@ SO THAT I can create a strong password that provides greater security
 [Password Generator](https://dspark8916.github.io/Password-Generator/)
 
     **ScreenShots**
+![Initial Password Generator](assets/PasswordGenerator1.jpg.png)
+
+![Password Generator with Password](assets/PasswordGenerator2.jpg.png)
