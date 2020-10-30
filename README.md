@@ -9,5 +9,6 @@
     So, the more complex your password is, the more security it provides for your account. Remember that your account is where you store a great deal of sensitive information that you don’t want to have stolen. As you understand, the stakes are very high. Therefore, taking care of your account password is crucial.
 
     Credit to 
-![Namecheap.com](https://www.namecheap.com/support/knowledgebase/article.aspx/9517/45/what-is-a-secure-password-and-why-is-it-important-to-have-one)
+[Namecheap.com](https://www.namecheap.com/support/knowledgebase/article.aspx/9517/45/what-is-a-secure-password-and-why-is-it-important-to-have-one) 
+
 
