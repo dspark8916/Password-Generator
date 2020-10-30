@@ -42,3 +42,9 @@ SO THAT I can create a strong password that provides greater security
 
     8. Finally, created for loop which would generate password based on selected criteria and publish it to the page for the user to easily access.
 
+## Link to Deployed Application & Screenshots of Completed Application
+
+    **Live Link**
+[Password Generator](https://dspark8916.github.io/Password-Generator/)
+
+    **ScreenShots**
