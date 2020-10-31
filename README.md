@@ -28,19 +28,23 @@ SO THAT I can create a strong password that provides greater security
 
     1. Made Generate Password button functional so that when user clicks button they are prompted with criteria to select to create random password.
 
-    2. Created generatePassword function which helped with prompting the user to select the desired criteria in order to create random password
+    2. Created variables for the different character types that the user will have the ability to chose from.
 
-    3. Created first prompt asking user to select a password length between 8 and 128 characters.
+    3. Created additional variables in order for user input to be stored.
 
-    4. Created an if statement alerting user to enter a number between 8 and 128, if their initial input was outside of those parameters.
+    4. Created generatePassword function which helped with prompting the user to select the desired criteria in order to create random password
 
-    5. Created additional if statement that generates alert after input errors alerting user to click on generate password and try again.
+    5. Created first prompt asking user to select a password length between 8 and 128 characters.
 
-    6. Created else statement asking user for confirmation on which character types they would like to include in their password. Choices are between numbers, special characters, uppercase letters, and lowercase letters.
+    6. Created an if statement alerting user to enter a number between 8 and 128, if their initial input was outside of those parameters.
 
-    7. Created else if statements of all possible combinations of criteria selected in order to provide user a password with character set they requested.
+    7. Created additional if statement that generates alert after input errors alerting user to click on generate password and try again.
 
-    8. Finally, created for loop which would generate password based on selected criteria and publish it to the page for the user to easily access.
+    8. Created else statement asking user for confirmation on which character types they would like to include in their password. Choices are between numbers, special characters, uppercase letters, and lowercase letters.
+
+    9. Created else if statements of all possible combinations of criteria selected in order to provide user a password with character set they requested.
+
+    10. Finally, created for loop which would generate password based on selected criteria and publish it to the page for the user to easily access.
 
 ## Link to Deployed Application & Screenshots of Completed Application
 
